@@ -10,7 +10,7 @@ lives = 7
 from hangman_art import stages, logo
 print(logo)
 
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 display = []
 for _ in range(word_length):
@@ -39,6 +39,7 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You LOST.")
+            print(f'Pssst, the solution is {chosen_word}.')
 
     
     print(f"{' '.join(display)}")

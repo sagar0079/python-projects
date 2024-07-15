@@ -16,10 +16,10 @@ for jell in range(1, nr_letters+1):
     password += random.choice(letters)
     
 for jell in range(1, nr_symbols+1):
-    password += random.choice(numbers)
+    password += random.choice(symbols)
     
 for jell in range(1, nr_numbers+1):
-    password += random.choice(symbols)
+    password += random.choice(numbers)
     
 
 random.shuffle(password)
